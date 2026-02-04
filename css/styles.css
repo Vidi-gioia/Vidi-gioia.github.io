@@ -462,6 +462,10 @@ main {
         border-radius: 15px;
     }
 
+    #portfolioGrid {
+    margin-top: -20px;
+    }
+
     .contact-layout > div:last-child {
         display: flex;
         gap: 12px;
@@ -518,6 +522,7 @@ main {
 
     .contact-layout {
         grid-template-columns: 1fr;
+        margin-top: -25px;
     }
 }
 
@@ -526,6 +531,14 @@ main {
 ========================= */
 
 @media (max-width: 420px) {
+
+    .contact-layout {
+        margin-top: -25px;
+    }
+
+    #portfolioGrid {
+    margin-top: 0px;
+    }
 
     /* FOLDER VIEW */
     .portfolio-grid {
