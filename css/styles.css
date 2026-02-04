@@ -443,6 +443,15 @@ main {
     line-height: 1;
 }
 
+.home-grid {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
 /* =========================
    RESPONSIVE (MOBILE)
 ========================= */
@@ -532,6 +541,17 @@ main {
 
     .thumb {
         height: 110px;
+    }
+
+    .card {
+    position: relative;
+    background: #f6d04d;
+    border-radius: 12px;
+    padding-bottom: 3px;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
     }
 
     .menu {
