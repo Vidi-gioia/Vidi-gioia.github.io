@@ -10,7 +10,8 @@
 
 body {
     background: #fbf6e6;
-    font-family: Georgia, serif;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
     color: #f0b93a;
 }
 
@@ -196,7 +197,6 @@ main {
 }
 
 .about-text h1 {
-    font-family: 'Playfair Display', serif;
     font-size: 32px;
     margin-bottom: 20px;
     text-align: center;
