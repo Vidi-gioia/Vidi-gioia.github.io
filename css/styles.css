@@ -209,8 +209,8 @@ main {
 }
 
 .about-side img {
-    margin-top: 100px;
-    width: 100%;
+    margin-top: 40px;
+    width: 80%;
     border-radius: 6px;
     display: block;
     margin-bottom: 30px;
@@ -507,6 +507,16 @@ main {
 
     max-width: 1100px;
     margin: 0 auto;
+}
+
+a {
+  text-decoration: none; /* no underline by default */
+  color: inherit;        /* same color as surrounding text */
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline; /* underline on hover/focus */
 }
 
 /* =========================
